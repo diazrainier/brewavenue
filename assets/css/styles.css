@@ -1,0 +1,135 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+
+}	
+
+div .input-group {
+  padding: 0;
+}
+
+
+.social > a {
+  font-size: 3em;
+  padding: .2em;
+}
+
+.store-hours {
+  padding: .1em;
+}
+
+
+.social > h5 {
+  padding: 0;
+  margin: 0;
+}
+
+.btn-outline-primary {
+  height: 40px;
+}
+
+nav li a {
+  opacity: 1;
+  position: relative;
+}
+
+nav li a:before {
+  content: '';
+  display: block;
+  height: 5px;
+  background: black;
+  position: absolute;
+  bottom: -.65em;
+  left: 0;
+  right: 0;
+  transform: scale(0, 1);
+  transition: transform ease-in-out 250ms;
+}
+
+
+nav li a:hover:before {
+  transform:  scale(1,1);
+}
+
+#careers {
+  padding: 0;
+
+}
+
+/*---Media Queries --*/
+/*Desktop*/
+@media (max-width: 992px) {
+
+  }
+
+/*Tablet*/  
+@media (max-width: 768px) {
+  
+}
+/*Mobile*/
+@media (max-width: 576px) {
+  .jumbotron > h1 {
+    font-size: 200%
+  }
+}
+
+body { 
+  -webkit-animation: fade-in 3s ease-in-out forwards;
+          animation: fade-in 3s ease-in-out forwards;
+}
+
+@-webkit-keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/*--- Fixed Background Image --*/
+figure {
+  position: relative;
+  width: 100%;
+  height: 60%;
+  margin: 0!important;
+}
+.fixed-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#fixed {
+  background-image: url('');
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
+}
+
+
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+    padding: 1rem;
+}
+
