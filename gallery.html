@@ -26,16 +26,16 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
 	<!-- GoogleFonts Import -->
-	<!-- Noto Sans & Questrial -->
-	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR|Questrial" rel="stylesheet">
+	
+	<link href="https://fonts.googleapis.com/css?family=Merriweather|Mukta" rel="stylesheet">
 	<title>The Avenue - Brew Avenue</title>
 </head>
 <body>
 
 <!-- Navigation -->
-		<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+		<nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
 			<div class="container-fluid">
-				<a class="navbar-brand" href="home.html"><img src="#">LOGO</a>
+				<a class="navbar-brand" href="home.html"><img src="./assets/images/logov3.png" width="180" height="60"></a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
 					<span class="navbar-toggler-icon"></span>
 				</button>
@@ -60,14 +60,9 @@
 
 <!-- Jumbotron -->
 
-		<div class="container-fluid">
-			<div class="jumbotron">
-				<h1 class="display-1 text-center">BREW AVENUE</h1>
-				<p class="lead text-center">
-					
-				<a href="gallery.html"><button type="button" class="btn btn-outline-primary">THE AVENUE</button></a>
-				<a href="menu.html"><button type="button" class="btn btn-outline-primary">THE BREWS</button></a>
-				</p>
+		<div class="container-fluid jumbo-padding">
+			<div class="jumbotron galimg">
+				
 			</div>
 
 		</div>
@@ -86,27 +81,22 @@
 				
 				<h3 class="text-center">Your Retreat Spot Cafe from the Office</h3>
 						
-				<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p class="text-justify">We’re not just passionate purveyors of coffee, but everything else that goes with a full and rewarding coffeehouse experience. We also offer a selection of premium teas, fine pastries and other delectable treats to please the taste buds. And the music you hear in store is chosen for its artistry and appeal.</p>
 			</div>
 			<div class="col-lg-6 col-md-12">
 				<div class="row padding text-center">
 						<div class="col-sm-12 col-md-12">
-							<img src="#">
+							<img src="./assets/images/ga1.jpg" width="500" height="300" class="img-res2">
 						</div>
 					
 				
 						<div class="col-sm-12 col-md-12">
-							<img src="#">
+							<img src="./assets/images/gal2.jpg" width="500" height="300" class="img-res2">
 						</div>
 						
 					
 						<div class="col-sm-12 col-md-12">
-							<img src="#">
+							<img src="./assets/images/gal3.jpg" width="500" height="300" class="img-res2">
 						</div>
 					</div>		
 			</div>
@@ -131,22 +121,22 @@
 			<div class="row padding">
 				<div class="col-lg-4 col-md-4">
 					<div class="card-deck">
-						  <div class="card">
-							    	<img class="card-img-top imghover" src="./assets/images/c1.jpg" alt="Card image cap">
+						  <div class="card excard">
+							    	<img class="card-img-top imghover" src="./assets/images/mod1.jpg" alt="Card image cap" width="300" height="500">
 
 						  	    	<div class="hover-desc text-center">
-						  	    		<h2 id="heading-hover">13 Health Benefits of Coffee, Based on Science</h2>
+						  	    		<h2 id="hover-title">13 Health Benefits of Coffee, Based on Science</h2>
 
 						  	    		<!-- Button trigger modal -->
-										<button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#modal-article1">
+										<button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#modal-article1" id="article-button">
 										  View Article
 										</button>
-
-
-
 								  </div>
 						  </div>
 					</div>
+
+
+
 					<!-- Modal -->
 					<div class="modal fade" id="modal-article1" tabindex="-1" role="dialog">
 					  <div class="modal-dialog" role="document">
@@ -184,14 +174,15 @@
 	  	    	</div>
 	  	    	<div class="col-lg-4 col-md-4">
 					<div class="card-deck">
-						  <div class="card">
-							    	<img class="card-img-top imghover" src="./assets/images/c1.jpg" alt="Card image cap">
+						  <div class="card excard">
+							    	<img class="card-img-top imghover" src="./assets/images/mod2.jpg" alt="Card image cap" width="300" height="500">
 
 						  	    	<div class="hover-desc text-center">
-						  	    		<h2 id="heading-hover">Want To Get More Done? Work From a Coffee Shop</h2>
+						  	    		<h2 id="hover-title">Want To Get More Done? Work From a Coffee Shop</h2>
 
 						  	    		<!-- Button trigger modal -->
-										<button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#modal-article">
+										<button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#modal-article"
+										id="article-button">
 										  View Article
 										</button>
 
@@ -246,9 +237,82 @@
 					  </div>
 					</div>
 	  	    	</div>
+	  	    	<div class="col-lg-4 col-md-4">
+					<div class="card-deck">
+						  <div class="card excard">
+							    	<img class="card-img-top imghover" src="./assets/images/mod3.jpg" alt="Card image cap" width="300" height="500">
+
+						  	    	<div class="hover-desc text-center">
+						  	    		<h2 id="hover-title">Want To Get More Done? Work From a Coffee Shop</h2>
+
+						  	    		<!-- Button trigger modal -->
+										<button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#modal-article"
+										id="article-button">
+										  View Article
+										</button>
+
+
+
+								  </div>
+						  </div>
+					</div>
+					<!-- Modal -->
+					<div class="modal fade" id="modal-article" tabindex="-1" role="dialog">
+					  <div class="modal-dialog" role="document">
+					    <div class="modal-content">
+					      <div class="modal-header">
+					        <h3 class="modal-title" id="exampleModalLongTitle">8 Reasons Why You Should Drink Coffee At Work</h3>
+					        	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					         	<span aria-hidden="true">&times;</span>
+					        	</button>
+					      </div>
+					      <div class="modal-body">
+
+
+					       		
+						       	<p>Coffee is one of the most ubiquitous and unifying products in the world. It is, in one form or another, consumed in great volume in every corner of the earth. Needless to say, it is an enormous industry that employs untold millions of people from bean pickers to marketing executives. Coffee is also a cornerstone upon which countless other industries are founded. Without coffee, how many of us would witness a decline in our productivity at the office? Heck, how many of us would witness a noticeable decline in our overall happiness? Coffee holds a great power over modern society and, especially, over the modern worker. Here are eight compelling reasons to embrace our java overlord:</p>
+
+						       	<p>1. It keeps you alert
+								As we all know, caffeine is one of the most common stimulants readily found in many domestic products. Caffeinated coffee keeps people awake and provides their central nervous systems with a boost that helps keep them productive throughout the day.</p>
+
+						       	<p>2. Coffee breaks improve productivity
+								The coffee break is a 20th century invention, becoming more prevalent following the Second World War. A 2010 study at MIT showed that employees who take coffee breaks together demonstrate an overall improvement in their productivity. These breaks create a forum within which employees can share both personal and work-related experiences. Allowing employees to take these breaks together showed a lift in overall performance.</p>
+
+						       	<p>3. It may help you live longer
+								The US National Institute for Health released a study that found a correlation between the amount of coffee consumed and risk of death. From the study: "The researchers found that the association between coffee and reduction in risk of death increased with the amount of coffee consumed. Relative to men and women who did not drink coffee, those who consumed three or more cups of coffee per day had approximately a 10 percent lower risk of death."</p>
+
+						       	<p>4. It can reduce pain for desk workers
+								Another study conducted by the National Institute for Health concluded that consuming caffeine before performing pain-inducing computer work resulted in attenuated pain development versus subjects who did not consume caffeine. Admittedly, the sample size of the study is small, but the results show the possibility of prescribing caffeine as an everyday pain moderator.</p>
+						       	
+
+						       	<p>5. Coffee is social
+								Over the last 30 years, the proverbial coffee pot has assumed the role of the office water cooler. Being a coffee drinker in an office setting lends itself to greater social interaction that can be directly tied to increased productivity. More importantly, coffee drinkers at work tend to be happier in their jobs.</p>
+						       	
+						       	<p>6. Your colleagues drink a lot of it
+								In 2011, a survey released a list of the professions that consumed the most amount of coffee. Rounding out the top 5 in the list: scientists/lab technicians, marketing/PR professionals, education administrators, writers/editors and healthcare administrators.</p>
+
+						       	<p>7. It can reduce sleep-deprived stress
+								If you are sleep-deprived, the mere aroma of coffee has been showed to reduce stress levels. A study at the Seoul National University compared the expression of certain genes and proteins in rats' brains when exposed to the aroma of coffee. According to the study, those exposed to the coffee odour presented proteins that have healthful antioxidant properties known to protect nerve cells from stress-related damage whereas those not exposed to the coffee smell did not show these gene expressions.</p>
+						       	
+						       	<p>8. It keeps you trim
+								Numerous studies have linked the consumption of caffeine to increased metabolic activity. As such, it should come as no surprise that most commercial fat burning supplements contain caffeine. While the metabolic impact of caffeine may not be enough to eat away at that beer gut single-handedly, it doesn't hurt to know that your body is burning fat at a higher rate as you sit at your desk and sip your cup of Joe.</p>
+						       	
+
+						       	<a href="https://www.monster.ca/career-advice/article/why-coffee-increases-productivity-ca" target="_blank"><p class="font-italic">https://www.monster.ca/career-advice/article/why-coffee-increases-productivity-ca<p></a>
+					      </div>
+					      <div class="modal-footer">
+					        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					        
+					      </div>
+					    </div>
+					  </div>
+					</div>
+	  	    	</div>
 			</div>
 						  	   	
 		</div>
+
+		<hr>
 
 
 
@@ -257,22 +321,47 @@
 
 <!-- Jumbotron Subscribe -->
 
-		<div class="container-fluid">
-			<div class="jumbotron">
-				<h1 class="display-1 text-left">BREW AVENUE</h1>
+<!-- Jumbotron Subscribe -->
+
+	<div class="container-fluid jumbo-padding">
+			<div class="jumbotron subimg">
+				<h1 class="display-1 text-left" style="color: white;">Avenue Box</h1>
 				<label class="lead text-left">Join Our Email List for Exciting Promos
 				</label>
-				<div class="input-group text-left col-lg-4 col-md-4 col-sm-12">
-  					<input type="text" class="form-control" placeholder="Email Address" aria-label="Recipient's emailadd" aria-describedby="basic-addon2">
-  					<div class="input-group-append">
-    					<button class="btn btn-outline-secondary" type="button">SUBSCRIBE</button>
- 					</div>
-				</div>
+				<form>
+					
+					<div class="input-group text-left col-lg-4 col-md-4 col-sm-12">
+	  					<label for="inputemail"></label>
+	  					<input type="text" class="form-control" id="inputemail" placeholder="E-mail Address" required="true">
+	  					<div class="input-group-append">
+
+	    					<button class="btn btn-outline-secondary" type="submit" data-toggle="modal" data-target="#subscribe-modal">SUBSCRIBE</button>
+	  					</div>	
+	 					
+					</div>
+				</form>
+ 					<!-- Modal -->
+					<div class="modal fade" id="subscribe-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+					  <div class="modal-dialog" role="document">
+					    <div class="modal-content">
+					      <div class="modal-header">
+					        <h5 class="modal-title" id="exampleModalLabel">Welcome to the Avenue!</h5>
+					        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					          <span aria-hidden="true">&times;</span>
+					        </button>
+					      </div>
+					      <div class="modal-body">
+					       	<p>You are now subscribed to our List! Please check your mailbox for the latest promos</p>
+					      </div>
+					      
+					    </div>
+					  </div>
+					</div>
 					
 				
 			</div>
-		</div>	
-	
+
+	</div>
 
 	<hr>
 
@@ -285,7 +374,7 @@
 				
 				<div class="col-md-3">
 
-					<a href="home.html"><img src="#" ></a>
+					<a href="home.html"><img src="./assets/images/logo1.png" width="300" height="300" class="img-res" ></a>
 
 				</div>
 				<div class="col-md-3 col-sm-12">
@@ -301,7 +390,7 @@
 					<a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
 					<a href="https://www.pinterest.com" target="_blank"><i class="fab fa-pinterest"></i></a>
 					<h5>Be Part of The Brewers!</h5>
-					<a href="contact.html" id="careers"><button type="button" class="btn btn-outline-primary">Careers</button></a>
+					<a href="contact.html" id="careers"><button type="button" class="btn btn-outline-info">Careers</button></a>
 				</div>
 
 				<div class="col-md-3 col-sm-12 store-hours">
